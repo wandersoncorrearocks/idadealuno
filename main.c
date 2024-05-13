@@ -2,9 +2,8 @@
 #include <math.h>
 
 
-
-int main ()
-{   
+int main (){ 
+    
     int a=1;
     
     while(a!=0){
@@ -13,7 +12,7 @@ int main ()
     scanf ("%d", &a);           //inputs the student's age
     
     if(a<5)
-        printf("The student has to be above 5 years old")
+        printf("The student has to be above 5 years old") //defense
     
     else if(a>=5&&a<=7)
       printf("Infant A\n");
